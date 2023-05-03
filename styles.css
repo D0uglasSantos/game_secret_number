@@ -24,6 +24,10 @@ h1{
     font-size: 4em;
 }
 
+h2{
+    font-size: 4em;
+}
+
 h3{
     font-size: 2em;
     margin-top: 1.3em;
@@ -40,4 +44,22 @@ h3{
     font-size: 4em;
     padding: 10px;
     margin: 20px;
+}
+
+.btn-jogar-novamente{
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--bg-color);
+    padding: 10px 15px;
+    border: none;
+    background: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 30px;
+    transition: all 1s;
+    cursor: pointer
+}
+
+.btn-jogar-novamente:hover{
+    background-color: #ffffff;
+    color: var(--primary-color);
 }
